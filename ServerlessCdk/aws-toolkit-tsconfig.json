@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "typeRoots": [
+          "/home/magaz1nes/Programming/AwsMaster/ServerlessCdk/node_modules/@types"
+        ],
+        "types": [
+          "node"
+        ],
+        "target": "es6",
+        "module": "commonjs",
+        "outDir": "/home/magaz1nes/Programming/AwsMaster/ServerlessCdk/aws-toolkit-ts-output",
+        "rootDir": ".",
+        "sourceRoot": "/home/magaz1nes/Programming/AwsMaster/ServerlessCdk",
+        "sourceMap": true
+    }
+}
