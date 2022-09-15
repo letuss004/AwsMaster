@@ -4,3 +4,5 @@ cdk bootstrap
 cdk deploy
 cdk list
 
+// serverlessCDK
+npm i -D aws-cdk aws-cdk-lib construct ts-node typescript
