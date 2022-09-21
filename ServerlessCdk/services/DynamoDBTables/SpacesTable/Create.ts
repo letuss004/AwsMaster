@@ -27,7 +27,6 @@ async function handler(event: APIGatewayProxyEvent, context: Context): Promise<A
   result.body = JSON.stringify(`Created item with id: ${item.spaceId}`)
 
   return result
-
 }
 
 export { handler }

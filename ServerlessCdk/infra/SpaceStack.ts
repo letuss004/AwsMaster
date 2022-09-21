@@ -14,7 +14,8 @@ export class SpaceStack extends Stack {
   private spacesTable = new GenericLambdasTable(this, {
     tableName: 'SpacesTable',
     primaryKey: 'spaceId',
-    createLambdaPath: 'Create'
+    createLambdaPath: 'Create',
+    readLambdaPath: 'Read'
   })
 
   constructor(scope: Construct, id: string, props: StackProps) {

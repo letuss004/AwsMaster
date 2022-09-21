@@ -1,1 +1,12 @@
 GET https://stoh95jfw6.execute-api.ap-southeast-1.amazonaws.com/prod/hello
+
+###
+POST https://stoh95jfw6.execute-api.ap-southeast-1.amazonaws.com/prod/spaces
+Content-Type: : application/json
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+###
