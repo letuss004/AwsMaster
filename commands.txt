@@ -6,3 +6,6 @@ cdk list
 
 // serverlessCDK
 npm i -D aws-cdk aws-cdk-lib construct ts-node typescript
+
+aws cognito-idp admin-set-user-password --user-pool-id ap-southeast-1_33P1RDUvq --username tula --password "123456" --permanent
+
