@@ -1,3 +1,5 @@
+
+
 GET https://stoh95jfw6.execute-api.ap-southeast-1.amazonaws.com/prod/hello
 
 ###
@@ -10,3 +12,8 @@ Content-Type: : application/json
 }
 
 ###
+GET https://stoh95jfw6.execute-api.ap-southeast-1.amazonaws.com/prod/spaces?spaceId=00cadca8-e00d-47f5-b0b0-fe47648ae6bb
+
+###
+GET https://stoh95jfw6.execute-api.ap-southeast-1.amazonaws.com/prod/spaces?location=Paris
+
