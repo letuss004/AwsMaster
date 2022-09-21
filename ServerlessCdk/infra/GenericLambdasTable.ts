@@ -46,7 +46,7 @@ export class GenericLambdasTable {
     })
   }
 
-  private createLambdas(){
+  private createLambdas() {
     if (this.props.createLambdaPath) {
       this.createLambda = this.createSingleLambda(this.props.createLambdaPath)
       this.createLambdaIntegration = new LambdaIntegration(this.createLambda);
@@ -65,17 +65,17 @@ export class GenericLambdasTable {
     }
   }
 
-  private grantTableRights(){
-    if(this.createLambda){
+  private grantTableRights() {
+    if (this.createLambda) {
       this.table.grantWriteData(this.createLambda);
     }
-    if(this.readLambda){
+    if (this.readLambda) {
       this.table.grantReadData(this.readLambda)
     }
-    if(this.updateLambda){
+    if (this.updateLambda) {
       this.table.grantWriteData(this.updateLambda)
     }
-    if(this.deleteLambda){
+    if (this.deleteLambda) {
       this.table.grantWriteData(this.deleteLambda)
     }
   }
@@ -83,7 +83,7 @@ export class GenericLambdasTable {
   private createSingleLambda(lambdaName: string): NodejsFunction {
     const lambdaId = `${this.props.tableName}-${lambdaName}`
     return new NodejsFunction(this.stack, lambdaId, {
-      entry: (join(__dirname, '..', 'services', this.props.tableName, `${lambdaName}.ts`)),
+      entry: (join(__dirname, '..', 'services', 'DynamoDBTables', this.props.tableName, `${lambdaName}.ts`)),
       handler: 'handler',
       functionName: lambdaId,
       environment: {
