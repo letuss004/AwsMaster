@@ -1,6 +1,7 @@
 import {DynamoDB} from "aws-sdk";
 import {APIGatewayProxyEvent, APIGatewayProxyResult, Context} from "aws-lambda";
 import {v4} from "uuid";
+import { validateAsSpaceEntry } from "../Shared/InputValidater";
 
 const dbClient = new DynamoDB.DocumentClient();
 
@@ -16,7 +17,7 @@ async function handler(event: APIGatewayProxyEvent, context: Context):
     thisIsSpaceTableID: v4(),
     ...body
   }
-
+  validateAsSpaceEntry(item);
   try {
     const res = await dbClient.put({
       TableName: 'thisIsSpaceTableName',

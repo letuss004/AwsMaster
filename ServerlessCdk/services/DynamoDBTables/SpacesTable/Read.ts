@@ -5,6 +5,7 @@ import {
   APIGatewayProxyResult,
   Context
 } from 'aws-lambda';
+import { validateAsSpaceEntry } from '../../Shared/InputValidater';
 
 const TABLE_NAME = process.env.TABLE_NAME
 const dbClient = new DynamoDB.DocumentClient();
@@ -15,7 +16,6 @@ async function handler(event: APIGatewayProxyEvent, context: Context): Promise<A
     statusCode: 200,
     body: 'Hello from DYnamoDb'
   }
-
   try {
     if (event.queryStringParameters) {
       if (PRIMARY_KEY! in event.queryStringParameters) {
