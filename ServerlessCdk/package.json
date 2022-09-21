@@ -11,6 +11,8 @@
   "dependencies": {
     "aws-sdk": "^2.1216.0",
     "uuid": "^9.0.0",
-    "@types/aws-lambda": "^8.10.76"
+    "@types/aws-lambda": "^8.10.76",
+    "@aws-amplify/auth": "^3.4.32",
+    "aws-amplify": "^4.0.0"
   }
 }
