@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c43fa4ee-ff5d-4ed1-81b1-1aaa4ecd88df" name="Changes" comment="serverless --- &#10;test + debug">
+      <change afterPath="$PROJECT_DIR$/../.aws-sam/temp-template.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/Auth/IdentityPool.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/Auth/Authorizer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/infra/Auth/Authorizer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Auth/AuthService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/Auth/AuthService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Auth/auth.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/Auth/auth.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Auth/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/Auth/config.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http" environment="test" />
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/requests-with-tests.http" environment="test" />
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/requests-with-authorization.http" environment="test" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ek7yIRgmF4vOA2RvNqZ1BEjxzp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/tula/Programming/AwsMaster/ServerlessCdk",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "ts.external.directory.path": "/Users/tula/Programming/AwsMaster/ServerlessCdk/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="AWS Lambda.[Local] services/node_lambda/hello.handler">
+    <configuration name="All in http" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/http.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="[Local] services/node_lambda/hello.handler" type="aws.lambda" factoryName="Local" temporary="true" nameIsGenerated="true">
+      <option name="credentialProviderId" />
+      <option name="regionId" value="ap-southeast-1" />
+      <option name="debugHost" value="localhost" />
+      <option name="architecture" />
+      <option name="environmentVariables">
+        <map />
+      </option>
+      <option name="handler" value="services/node_lambda/hello.handler" />
+      <option name="image" value="false" />
+      <option name="logicalFunctionName" />
+      <option name="memorySize" value="128" />
+      <option name="pathMappings">
+        <list />
+      </option>
+      <option name="platform" />
+      <option name="runtime" value="nodejs16.x" />
+      <option name="templateFile" />
+      <option name="timeout" value="300" />
+      <option name="useTemplate" value="false" />
+      <option name="input" value="&quot;&quot;" />
+      <option name="inputIsFile" value="false" />
+      <sam>
+        <option name="additionalBuildArgs" value="" />
+        <option name="additionalLocalArgs" value="" />
+        <option name="buildInContainer" value="false" />
+        <option name="dockerNetwork" value="" />
+        <option name="skipImagePull" value="false" />
+      </sam>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="AWS Lambda.[Local] services/node_lambda/hello.handler" />
+        <item itemvalue="HTTP Request.All in http" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c43fa4ee-ff5d-4ed1-81b1-1aaa4ecd88df" name="Changes" comment="" />
+      <created>1663127980201</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663127980201</updated>
+      <workItem from="1663127981515" duration="13000" />
+      <workItem from="1663128967090" duration="3461000" />
+      <workItem from="1663206736947" duration="19000" />
+      <workItem from="1663230728599" duration="11124000" />
+      <workItem from="1663292469128" duration="1545000" />
+      <workItem from="1663832579025" duration="6736000" />
+    </task>
+    <task id="LOCAL-00001" summary="ss2 done">
+      <created>1663236028139</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663236028139</updated>
+    </task>
+    <task id="LOCAL-00002" summary="serverless --- &#10;test + debug">
+      <created>1663247839909</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663247839909</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="ss2 done" />
+    <MESSAGE value="serverless --- &#10;test + debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="serverless --- &#10;test + debug" />
+  </component>
+</project>
