@@ -1,15 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c43fa4ee-ff5d-4ed1-81b1-1aaa4ecd88df" name="Changes" comment="serverless --- &#10;test + debug">
-      <change afterPath="$PROJECT_DIR$/../.aws-sam/temp-template.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infra/Auth/IdentityPool.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra/Auth/Authorizer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/infra/Auth/Authorizer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Auth/AuthService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/Auth/AuthService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Auth/auth.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/Auth/auth.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Auth/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/Auth/config.ts" afterDir="false" />
+    <list default="true" id="c43fa4ee-ff5d-4ed1-81b1-1aaa4ecd88df" name="Changes" comment="section 8 -- end">
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/jest.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/assets/generic-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/Auth/Forms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/Auth/Login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/Auth/Logout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/Auth/Signup.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/Navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/Profile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/reservations/ReservationComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/reservations/Reservations.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/reservations/Reservations.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/spaces/ConfirmModalComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/spaces/ConfirmModalComponentProps.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/spaces/CreateSpace.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/spaces/SpaceComponent.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/spaces/SpaceComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/spaces/Spaces.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/model/Model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/services/AuthService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/services/DataService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/services/config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/utils/Utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/utils/history.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/test/components/Home.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/test/components/Login.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/test/components/Navbar.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/test/components/Profile.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/test/components/spaces/ConfirmModalComponent.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/test/components/spaces/SpaceComponent.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/test/components/spaces/Spaces.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/test/mockFile.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/test/snapshots-tests/Login.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/test/snapshots-tests/__snapshots__/Login.test.tsx.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +156,7 @@
       <workItem from="1663206736947" duration="19000" />
       <workItem from="1663230728599" duration="11124000" />
       <workItem from="1663292469128" duration="1545000" />
-      <workItem from="1663832579025" duration="6736000" />
+      <workItem from="1663832579025" duration="7905000" />
     </task>
     <task id="LOCAL-00001" summary="ss2 done">
       <created>1663236028139</created>
@@ -129,7 +172,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663247839909</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="section 8 -- end">
+      <created>1663840533793</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663840533793</updated>
+    </task>
+    <task id="LOCAL-00004" summary="section 8 -- end">
+      <created>1663840590833</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663840590833</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +207,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ss2 done" />
     <MESSAGE value="serverless --- &#10;test + debug" />
-    <option name="LAST_COMMIT_MESSAGE" value="serverless --- &#10;test + debug" />
+    <MESSAGE value="section 8 -- end" />
+    <option name="LAST_COMMIT_MESSAGE" value="section 8 -- end" />
   </component>
 </project>
