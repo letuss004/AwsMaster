@@ -1,6 +1,6 @@
-import { DynamoDB } from 'aws-sdk';
-import { APIGatewayProxyEvent, APIGatewayProxyResult, Context } from 'aws-lambda';
-
+import {DynamoDB} from 'aws-sdk';
+import {APIGatewayProxyEvent, APIGatewayProxyResult, Context} from 'aws-lambda';
+import {addCorsHeader} from "../../../utils/Utils";
 
 
 const TABLE_NAME = process.env.TABLE_NAME as string;
@@ -13,13 +13,13 @@ async function handler(event: APIGatewayProxyEvent, context: Context): Promise<A
     statusCode: 200,
     body: 'Hello from DYnamoDb'
   }
-
+  addCorsHeader(result)
   const spaceId = event.queryStringParameters?.[PRIMARY_KEY]
 
   if (spaceId) {
     const deleteResult = await dbClient.delete({
       TableName: TABLE_NAME,
-      Key:{
+      Key: {
         [PRIMARY_KEY]: spaceId
       }
     }).promise();
@@ -29,4 +29,4 @@ async function handler(event: APIGatewayProxyEvent, context: Context): Promise<A
   return result
 }
 
-export { handler }
+export {handler}

@@ -2,57 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c43fa4ee-ff5d-4ed1-81b1-1aaa4ecd88df" name="Changes" comment="section 8 -- end">
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/.vscode/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/jest.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/assets/generic-image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/Auth/Forms.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/Auth/Login.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/Auth/Logout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/Auth/Signup.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/Home.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/Navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/Profile.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/reservations/ReservationComponent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/reservations/Reservations.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/reservations/Reservations.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/spaces/ConfirmModalComponent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/spaces/ConfirmModalComponentProps.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/spaces/CreateSpace.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/spaces/SpaceComponent.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/spaces/SpaceComponent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/components/spaces/Spaces.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/model/Model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/services/AuthService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/services/DataService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/services/config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/utils/Utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/utils/history.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/test/components/Home.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/test/components/Login.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/test/components/Navbar.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/test/components/Profile.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/test/components/spaces/ConfirmModalComponent.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/test/components/spaces/SpaceComponent.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/test/components/spaces/Spaces.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/test/mockFile.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/test/snapshots-tests/Login.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/test/snapshots-tests/__snapshots__/Login.test.tsx.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/Utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/Auth/Authorizer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/infra/Auth/Authorizer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/Auth/IdentityPool.ts" beforeDir="false" afterPath="$PROJECT_DIR$/infra/Auth/IdentityPool.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/SpaceStack.ts" beforeDir="false" afterPath="$PROJECT_DIR$/infra/SpaceStack.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/DynamoDBTables/SpacesTable/Create.ts" beforeDir="false" afterPath="$PROJECT_DIR$/services/DynamoDBTables/SpacesTable/Create.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/DynamoDBTables/SpacesTable/Delete.ts" beforeDir="false" afterPath="$PROJECT_DIR$/services/DynamoDBTables/SpacesTable/Delete.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/DynamoDBTables/SpacesTable/Read.ts" beforeDir="false" afterPath="$PROJECT_DIR$/services/DynamoDBTables/SpacesTable/Read.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/DynamoDBTables/SpacesTable/Update.ts" beforeDir="false" afterPath="$PROJECT_DIR$/services/DynamoDBTables/SpacesTable/Update.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/SpaceTable/Create.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-finder-frontend-main/src/services/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/services/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Hello.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/Hello.test.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,9 +38,12 @@
     <option name="projectConfigVersion" value="5" />
   </component>
   <component name="HttpClientSelectedEnvironments">
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/post-requests.http" environment="test" />
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/requests-with-authorization.http" environment="test" />
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/ws-requests.http" environment="test" />
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/graphql-requests.http" environment="test" />
     <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http" environment="test" />
     <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/requests-with-tests.http" environment="test" />
-    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/requests-with-authorization.http" environment="test" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -88,21 +56,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/tula/Programming/AwsMaster/ServerlessCdk",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "ts.external.directory.path": "/Users/tula/Programming/AwsMaster/ServerlessCdk/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/tula/Programming/AwsMaster/ServerlessCdk&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/magaz1nes/Programming/AwsMaster/ServerlessCdk/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="AWS Lambda.[Local] services/node_lambda/hello.handler">
+}</component>
+  <component name="RunManager" selected="HTTP Request.http | #1">
     <configuration name="All in http" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/http.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="http | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="[Local] services/node_lambda/hello.handler" type="aws.lambda" factoryName="Local" temporary="true" nameIsGenerated="true">
@@ -138,6 +109,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.http | #1" />
         <item itemvalue="AWS Lambda.[Local] services/node_lambda/hello.handler" />
         <item itemvalue="HTTP Request.All in http" />
       </list>
@@ -157,6 +129,7 @@
       <workItem from="1663230728599" duration="11124000" />
       <workItem from="1663292469128" duration="1545000" />
       <workItem from="1663832579025" duration="7905000" />
+      <workItem from="1663863623095" duration="4736000" />
     </task>
     <task id="LOCAL-00001" summary="ss2 done">
       <created>1663236028139</created>
@@ -191,6 +164,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

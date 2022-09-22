@@ -1,5 +1,5 @@
-// import {handler} from "../services/node_lambda/hello";
-import {handler} from "../services/DynamoDBTables/SpacesTable/Create";
+import {handler} from "../services/node_lambda/hello";
+// import {handler} from "../services/DynamoDBTables/SpacesTable/Create";
 import {APIGatewayProxyEvent} from "aws-lambda";
 
 const event: APIGatewayProxyEvent = {
@@ -25,7 +25,7 @@ const event2: APIGatewayProxyEvent = {
     }
 } as any;
 
-const result = handler(event2, {} as any).then((apiResult) => {
+const result = handler({} as any, {} as any).then((apiResult) => {
     console.log(apiResult)
   const items = apiResult.body;
   console.log('End debug!!!')
