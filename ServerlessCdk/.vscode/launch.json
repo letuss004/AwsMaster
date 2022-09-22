@@ -5,7 +5,7 @@
             "type": "node",
             "request": "launch",
             "name": "Debug local file",
-            "runtimeExecutable": "/home/magaz1nes/.nvm/versions/node/v16.13.0/bin/node",
+            // "runtimeExecutable": "/home/magaz1nes/.nvm/versions/node/v16.13.0/bin/node",
             "runtimeArgs": [
                 "-r",
                 "ts-node/register"
