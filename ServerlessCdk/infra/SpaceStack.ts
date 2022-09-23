@@ -7,12 +7,15 @@ import {PolicyStatement} from 'aws-cdk-lib/aws-iam';
 import {GenericLambdasTable} from "./GenericLambdasTable";
 import {Authorizer} from "./Auth/Authorizer";
 import {Bucket, HttpMethods} from "aws-cdk-lib/aws-s3";
+import {WebAppDeployment} from "./WebAppDeployment";
 
 export class SpaceStack extends Stack {
   private api = new RestApi(this, 'SpaceApi')
   private authorizer: Authorizer;
   private suffix: string;
   private spacesPhotosBucket: Bucket;
+  private profilePhotosBucket: Bucket;
+
   /**
    * */
   private spacesTable = new GenericLambdasTable(this, {
@@ -30,11 +33,15 @@ export class SpaceStack extends Stack {
 
     this.initializeSuffix();
     this.initializeSpacesPhotosBucket();
+    this.initializeProfilePhotosBucket();
+
     this.authorizer = new Authorizer(
       this,
       this.api,
       this.spacesPhotosBucket.bucketArn + '/*'
     );
+    new WebAppDeployment(this, this.suffix);
+
     const optionsWithAuthorizer: MethodOptions = {
       authorizationType: AuthorizationType.COGNITO,
       authorizer: {
@@ -91,6 +98,24 @@ export class SpaceStack extends Stack {
     });
     new CfnOutput(this, 'spaces-photos-bucket-name', {
       value: this.spacesPhotosBucket.bucketName
+    })
+  }
+
+  private initializeProfilePhotosBucket() {
+    this.profilePhotosBucket = new Bucket(this, 'profile-photos', {
+      bucketName: 'profile-photos-' + this.suffix,
+      cors: [{
+        allowedMethods: [
+          HttpMethods.HEAD,
+          HttpMethods.GET,
+          HttpMethods.PUT
+        ],
+        allowedOrigins: ['*'],
+        allowedHeaders: ['*']
+      }]
+    });
+    new CfnOutput(this, 'profile-photos-bucket-name', {
+      value: this.profilePhotosBucket.bucketName
     })
   }
 }

@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c43fa4ee-ff5d-4ed1-81b1-1aaa4ecd88df" name="Changes" comment="section 8 -- end">
-      <change afterPath="$PROJECT_DIR$/space-finder-frontend-main/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/Utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/WebAppDeployment.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra/Auth/Authorizer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/infra/Auth/Authorizer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra/Auth/IdentityPool.ts" beforeDir="false" afterPath="$PROJECT_DIR$/infra/Auth/IdentityPool.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infra/SpaceStack.ts" beforeDir="false" afterPath="$PROJECT_DIR$/infra/SpaceStack.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/DynamoDBTables/SpacesTable/Create.ts" beforeDir="false" afterPath="$PROJECT_DIR$/services/DynamoDBTables/SpacesTable/Create.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/DynamoDBTables/SpacesTable/Delete.ts" beforeDir="false" afterPath="$PROJECT_DIR$/services/DynamoDBTables/SpacesTable/Delete.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/DynamoDBTables/SpacesTable/Read.ts" beforeDir="false" afterPath="$PROJECT_DIR$/services/DynamoDBTables/SpacesTable/Read.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/DynamoDBTables/SpacesTable/Update.ts" beforeDir="false" afterPath="$PROJECT_DIR$/services/DynamoDBTables/SpacesTable/Update.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/SpaceTable/Create.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-finder-frontend-main/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/space-finder-frontend-main/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-finder-frontend-main/src/services/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/services/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Hello.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/Hello.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-finder-frontend-main/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/space-finder-frontend-main/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,19 +46,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/tula/Programming/AwsMaster/ServerlessCdk&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/magaz1nes/Programming/AwsMaster/ServerlessCdk/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/tula/Programming/AwsMaster/ServerlessCdk",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "ts.external.directory.path": "/Users/tula/Programming/AwsMaster/ServerlessCdk/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="HTTP Request.http | #1">
     <configuration name="All in http" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/http.http">
       <method v="2" />
