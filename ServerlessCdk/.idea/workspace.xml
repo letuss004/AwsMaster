@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c43fa4ee-ff5d-4ed1-81b1-1aaa4ecd88df" name="Changes" comment="section 8 -- end">
-      <change afterPath="$PROJECT_DIR$/infra/WebAppDeployment.ts" afterDir="false" />
+    <list default="true" id="c43fa4ee-ff5d-4ed1-81b1-1aaa4ecd88df" name="Changes" comment="comm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra/SpaceStack.ts" beforeDir="false" afterPath="$PROJECT_DIR$/infra/SpaceStack.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-finder-frontend-main/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/space-finder-frontend-main/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-finder-frontend-main/src/services/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-finder-frontend-main/src/services/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-finder-frontend-main/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/space-finder-frontend-main/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +50,7 @@
     "last_opened_file_path": "/Users/tula/Programming/AwsMaster/ServerlessCdk",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.keymap",
-    "ts.external.directory.path": "/Users/tula/Programming/AwsMaster/ServerlessCdk/node_modules/typescript/lib",
+    "ts.external.directory.path": "/home/magaz1nes/Programming/AwsMaster/ServerlessCdk/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
